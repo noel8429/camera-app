@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>환경 실천 약속 카메라</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>환경을 지키기 위한 나의 실천약속</h1>
+        <video id="camera" autoplay playsinline></video>
+        <canvas id="canvas" class="hidden"></canvas>
+        <img id="output" class="hidden">
+        <div class="controls">
+            <button id="capture">사진 촬영</button>
+            <button id="save" class="hidden">저장</button>
+            <button id="retake" class="hidden">다시 찍기</button>
+        </div>
+        <input type="text" id="userName" placeholder="이름을 입력하세요" class="hidden">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
