@@ -18,7 +18,7 @@ function initApp() {
         console.error('템플릿 이미지 로드 실패');
         alert('템플릿 이미지를 불러오는데 실패했습니다. 페이지를 새로고침 해주세요.');
     };
-    templateImage.src = '/images/template.jpg';
+    templateImage.src = 'images/template.jpg';
     
     captureButton.disabled = true; // 이미지 로딩 전에는 버튼 비활성화
 }
